@@ -4,7 +4,7 @@
 </p>
 
 A Mass Spectrometry-Based Single-Cell Metabolomics Data Processing Platform.
-Welcome to the development folder for the CellMate application and sourcecode. Here you will find source code, a precompiled version of the app, and documentation.
+Welcome to the development folder for the CellMate application and source code. Here you will find source code, a precompiled version of the app, and documentation.
 
 ## License
 CellMate is a free software; you can redistribute it and/or modify it under the terms of the MIT license.
