@@ -1,5 +1,5 @@
 # CellMate 
-CellMate/icon.png
+/CellMate/icon.png
 Mass spectrometry-based Single-cell Metabolomics Data Processing Platform
 Welcome to the development folder for the CellMate application and sourcecode. Here you will find source code, a precompiled version of the app, and documentation.
 
