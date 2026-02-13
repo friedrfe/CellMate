@@ -1,5 +1,5 @@
-# CellMate 
-<p align="center">
+
+<p align="left">
   <img src="icon.png" width="180">
 </p>
 
