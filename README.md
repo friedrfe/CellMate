@@ -30,7 +30,7 @@ Interactive and dynamic graphical user interface
 
 ## Requirements
 ### Standalone Version 
-The compiled version of CellMate does not require a MATLAB license. The compiled version (`CellMate.exe`) requires the MATLAB Runtime (R2023b), as this version is where the app source code was compiled. The CellMate.exe file needs to be installed and can be used directly. Upon starting the app, two .DLL files ("ThermoFisher.CommonCore.Data.dll" and "ThermoFisher.CommonCore.RawFileReader.dll") are required for Thermofishers .RAW import function. These .DLL files are in the same folder as the compiled version. For using the pre-trained deep-learning model for species classification, a .mat file needs to be loaded in the DL tab (tab 4). A potential future feature is the ability to transfer-learn a model ad hoc (on new data) to adjust to different experimental settings.
+The compiled version of CellMate does not require a MATLAB license. The compiled version (`CellMate.exe`) requires the MATLAB Runtime (R2023b), as this version is where the app source code was compiled. The CellMate.exe file needs to be installed and can be used directly. Upon starting the app, two .DLL files (`ThermoFisher.CommonCore.Data.dll` and `ThermoFisher.CommonCore.RawFileReader.dll`) are required for Thermofishers .RAW import function. These .DLL files are in the same folder as the compiled version. For using the pre-trained deep-learning model for species classification, a .mat file needs to be loaded in the DL tab (tab 4). A potential future feature is the ability to transfer-learn a model ad hoc (on new data) to adjust to different experimental settings.
 
 Download the MATLAB Runtime here:
 https://www.mathworks.com/products/compiler/matlab-runtime.html
