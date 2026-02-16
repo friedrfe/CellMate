@@ -22,6 +22,8 @@ For more information about the MATLAB Runtime and the MATLAB Runtime installer, 
 "Distribute Applications" in the MATLAB Compiler documentation  
 in the MathWorks Documentation Center.
 
+Saving the DLL's and trainedNetwork1.mat files in the same folder as the apps allows for automated import.
+
 2. Files to Deploy and Package
 
 Files to Package for Standalone 
