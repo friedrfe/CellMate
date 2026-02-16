@@ -7,9 +7,14 @@ A Mass Spectrometry-Based Single-Cell Metabolomics Data Processing Platform.
 Welcome to the development folder for the CellMate application and source code. Here you will find source code, a precompiled version of the app, and documentation.
 
 ## License
-CellMate is a free software; you can redistribute it and/or modify it under the terms of the MIT license.
+CellMate
+Copyright (C) 2026 Felix Friedrich
 
-CellMate is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 ## What is CellMate
 CellMate is an application written in MATLAB for processing mass spectrometry-based direct infusion data, adapted for singe-cell metabolomics. The application can be run for targeted or untargeted data analysis. It currently supports both Thermo Fisher's .raw file format and the universal .mzML file format.
