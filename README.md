@@ -29,8 +29,14 @@ Novel deep-learning-based identification of endogenous species - an effective ba
 Interactive and dynamic graphical user interface
 
 ## Requirements
-The compiled version of CellMate does not require a MATLAB license. It needs to be installed and can be used directly. For a deep learning model, the accompanying network needs to be loaded in the DL tab of the app. A potential future feature is the ability to transfer-learn a model ad hoc (on new data) to adjust to different experimental settings.
-The application is developed with MATLAB 2023b, including the Deep Learning Toolbox. Please install this version and the add-on when you want to run the source code. There may be conflicts when running the code with other versions of MATLAB. After downloading the source code of the application, you can run and modify the code in the MATLAB App Designer application.
+### Standalone Version 
+The compiled version of CellMate does not require a MATLAB license. The compiled version (`CellMate.exe`) requires the MATLAB Runtime (R2023b), as this version is where the app source code was compiled. The CellMate.exe file needs to be installed and can be used directly. Upon starting the app, two .DLL files are required for Thermofishers .RAW import function. These .DLL files are in the same folder as the compiled version. For using the pre-trained deep-learning model for species classification, a .mat file needs to be loaded in the DL tab (tab 4). A potential future feature is the ability to transfer-learn a model ad hoc (on new data) to adjust to different experimental settings.
+
+Download the MATLAB Runtime here:
+https://www.mathworks.com/products/compiler/matlab-runtime.html
+
+### Running from the App Designer application in MATLAB 2023b
+The application is developed with MATLAB 2023b, including the Deep Learning Toolbox. Please install this version and the add-on before running the source code in the licensed MATLAB environment. There may be conflicts when running the code with other versions of MATLAB. After downloading the source code of the application, you can run and modify the code in the MATLAB App Designer application.
 
 ## Cite
 Please cite any use of this software as: Friedrich, F.; Marques, C.; Lanekoff, I. CellMate─A Deep Learning-Assisted Single-Cell Data Processing Platform. Anal. Chem. 2026. https://doi.org/10.1021/acs.analchem.5c07205.
